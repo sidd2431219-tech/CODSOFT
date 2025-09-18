@@ -69,15 +69,19 @@ git clone <your-repo-url>
 
 ## 🗂 Folder Structure
 -Task1/   --> Portfolio
+
 -Task2/   --> Landing Page
+
 -Task3/   --> Calculator
 
 ---
 
-## 🛠 Tech Stack
--HTML5
--CSS3 (Flexbox, Grid, Animations)
--JavaScript (ES6+)
+## 🛠 Tech Stack:
+HTML5
+
+CSS3 (Flexbox, Grid, Animations)
+
+JavaScript (ES6+)
 
 ---
 
