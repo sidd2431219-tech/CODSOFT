@@ -86,11 +86,11 @@ git clone <your-repo-url>
 ---
 
 ## 💡 Notes
--All projects are responsive and tested on multiple devices.
+- All projects are responsive and tested on multiple devices.
 
--You can customize content and styles as needed.
+- You can customize content and styles as needed.
 
--Live preview links are placed.
+- Live preview links are placed.
 
 ---
 
