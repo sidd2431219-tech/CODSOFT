@@ -77,9 +77,11 @@ git clone <your-repo-url>
 ---
 
 ## 🛠 Tech Stack:
--HTML5
--CSS3 (Flexbox, Grid, Animations)
--JavaScript (ES6+)
+- HTML5
+ 
+- CSS3 (Flexbox, Grid, Animations)
+
+- JavaScript (ES6+)
 
 ---
 
