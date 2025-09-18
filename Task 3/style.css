@@ -1,0 +1,142 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #000000, #2b0000, #000000);
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.title {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  margin-bottom: 25px;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.calculator {
+  background: #302e2e;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  width: 270px;
+}
+
+#display {
+  width: 100%;
+  height: 55px;
+  margin-bottom: 20px;
+  font-size: 1.7rem;
+  text-align: right;
+  padding: 10px 12px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background: #f8f8f8;
+  box-sizing: border-box;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 15px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  background: #e0e0e0;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background: #ccc;
+  transform: scale(1.05);
+}
+
+.operator {
+  background: #f7b731;
+}
+
+#clear {
+  background: #ff4d4d;
+  color: white;
+}
+
+#equals {
+  grid-column: span 3;
+  background: #4CAF50;
+  color: white;
+}
+
+
+#historyBtn {
+  background: #6c63ff;
+  color: white;
+  border-radius: 10px;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.modal-content {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+  max-height: 70%;
+  overflow-y: auto;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+}
+
+#historyList {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  text-align: left;
+}
+
+#historyList li {
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+#clearHistory {
+  background: red;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#closeHistory {
+  background: gray;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
