@@ -68,11 +68,11 @@ git clone <your-repo-url>
 ---
 
 ## 🗂 Folder Structure
--Task1/   --> Portfolio
+- Task1/   --> Portfolio
 
--Task2/   --> Landing Page
+- Task2/   --> Landing Page
 
--Task3/   --> Calculator
+- Task3/   --> Calculator
 
 ---
 
