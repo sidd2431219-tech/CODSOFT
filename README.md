@@ -68,10 +68,27 @@ git clone <your-repo-url>
 ---
 
 ## 🗂 Folder Structure
-Task1/   --> Portfolio
-Task2/   --> Landing Page
-Task3/   --> Calculator
+-Task1/   --> Portfolio
+-Task2/   --> Landing Page
+-Task3/   --> Calculator
 
 ---
 
+## 🛠 Tech Stack
+-HTML5
+-CSS3 (Flexbox, Grid, Animations)
+-JavaScript (ES6+)
 
+---
+
+## 💡 Notes
+-All projects are responsive and tested on multiple devices.
+
+-You can customize content and styles as needed.
+
+-Live preview links are placed.
+
+---
+
+## 📄 License
+This repository is licensed under the MIT License. See LICENSE ↗️ for details.
